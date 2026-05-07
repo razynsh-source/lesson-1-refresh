@@ -9,4 +9,5 @@ def factors(x):
         if x % i == 0:
             # הוספת המספר לרשימה
             result.append(i)
-        
+            
+    return result
